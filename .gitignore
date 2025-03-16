@@ -12,6 +12,9 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 
+# ==== GLAD =====
+glad.c
+
 # ===== GLFW =====
 # The canonical out-of-tree build subdirectory
 build
