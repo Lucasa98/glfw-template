@@ -25,4 +25,4 @@ cmake ..
 
 ## Install GLFW Binaries
 
-Follow the official GLFW instructions for [building](https://www.glfw.org/docs/3.3/compile_guide.html#compile_generate_gui) and [compiling](https://www.glfw.org/docs/3.3/compile_guide.html#compile_compile) but after `cmake --build path/to/build` execute `cmake --build path/to/build`. If you are using Windows you will get GLFW on `Program Files (x86)`.
+Follow the official GLFW instructions for [building](https://www.glfw.org/docs/3.3/compile_guide.html#compile_generate_gui) and [compiling](https://www.glfw.org/docs/3.3/compile_guide.html#compile_compile) but after `cmake --build path/to/build` execute `cmake --install path/to/build`. If you are using Windows you will get GLFW on `Program Files (x86)`.
