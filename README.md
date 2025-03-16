@@ -15,13 +15,14 @@ To use this template just
 2. Config `CMakeLists`:
    1. `glfw3_DIR` this should be where `glfw3Config.cmake` is located, inside the GLFW installation folder
    2. `GLAD_INCLUDE_DIR` path to the GLAD include directory. Personally, I put them on `C:/` after download and unzip but you do you.
-3. Configure
+3. copy the `glad.c` you downloaded to root (where main.cpp is)
+4. Configure
 ```bash
 mkdir build
 cd build
 cmake ..
 ```
-4. Build `cmake --build .`
+5. Build `cmake --build .`
 
 ## Install GLFW Binaries
 
